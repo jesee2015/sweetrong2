@@ -19,14 +19,18 @@ namespace SweetRong2.Web.Controllers
         }
 
         [HttpPost]
-        public ActionResult Create(User user)
+        public void Create(User user)
         {
             UserService _ser = new UserService();
             user.UId = Guid.NewGuid();
             user.CreateDate = DateTime.Now;
             _ser.AddUser(user);
-            return View();
+            RedirectToAction("index", "home");
         }
 
+        public ActionResult Login()
+        {
+            return View();
+        }
     }
 }
