@@ -1,4 +1,5 @@
 ﻿using SweetRong2.Domain;
+using SweetRong2.IBLL;
 using SweetRong2.IReporsitory;
 using SweetRong2.Repository;
 using System;
@@ -9,13 +10,11 @@ using System.Threading.Tasks;
 
 namespace SweetRong2.BLL
 {
-    public class UserService
+    public class UserService : BaseService<User>, IUserService
     {
-        private IUserRepository _userRepository = RepositoryFactory.UserRepository;
-
-        public User AddUser(User user)
+        public override void SetCurrentRepository()
         {
-            return _userRepository.AddEntity(user);
+            _currentRepository = RepositoryFactory.UserRepository;
         }
     }
 }

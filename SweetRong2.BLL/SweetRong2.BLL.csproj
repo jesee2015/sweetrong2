@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserService.cs" />
   </ItemGroup>
@@ -46,6 +47,10 @@
     <ProjectReference Include="..\SweetRong2.Domain\SweetRong2.Domain.csproj">
       <Project>{a2f7b82a-0cf7-403c-a79f-e71f1b8c0590}</Project>
       <Name>SweetRong2.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SweetRong2.IBLL\SweetRong2.IBLL.csproj">
+      <Project>{62dc5468-57fb-4d3b-abe1-f50fe620ecc6}</Project>
+      <Name>SweetRong2.IBLL</Name>
     </ProjectReference>
     <ProjectReference Include="..\SweetRong2.IReporsitory\SweetRong2.IReporsitory.csproj">
       <Project>{a3c7fe6d-97f0-4c28-a701-5d3c44c8416b}</Project>

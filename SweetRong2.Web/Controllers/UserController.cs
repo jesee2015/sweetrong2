@@ -24,7 +24,7 @@ namespace SweetRong2.Web.Controllers
             UserService _ser = new UserService();
             user.UId = Guid.NewGuid();
             user.CreateDate = DateTime.Now;
-            _ser.AddUser(user);
+            _ser.AddEntity(user);
             RedirectToAction("index", "home");
         }
 

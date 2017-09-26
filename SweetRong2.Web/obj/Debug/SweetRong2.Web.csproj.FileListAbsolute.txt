@@ -48,3 +48,5 @@ D:\workspace\Project\SweetRong2\SweetRong2.Web\bin\SweetRong2.IReporsitory.dll
 D:\workspace\Project\SweetRong2\SweetRong2.Web\bin\SweetRong2.Repository.dll
 D:\workspace\Project\SweetRong2\SweetRong2.Web\bin\SweetRong2.IReporsitory.pdb
 D:\workspace\Project\SweetRong2\SweetRong2.Web\bin\SweetRong2.Repository.pdb
+D:\workspace\Project\SweetRong2\SweetRong2.Web\bin\SweetRong2.IBLL.dll
+D:\workspace\Project\SweetRong2\SweetRong2.Web\bin\SweetRong2.IBLL.pdb

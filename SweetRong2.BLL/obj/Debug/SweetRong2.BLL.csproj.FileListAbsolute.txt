@@ -11,3 +11,5 @@ D:\workspace\Project\SweetRong2\SweetRong2.BLL\bin\Debug\SweetRong2.Repository.d
 D:\workspace\Project\SweetRong2\SweetRong2.BLL\bin\Debug\SweetRong2.Repository.pdb
 D:\workspace\Project\SweetRong2\SweetRong2.BLL\bin\Debug\EntityFramework.dll
 D:\workspace\Project\SweetRong2\SweetRong2.BLL\bin\Debug\EntityFramework.xml
+D:\workspace\Project\SweetRong2\SweetRong2.BLL\bin\Debug\SweetRong2.IBLL.dll
+D:\workspace\Project\SweetRong2\SweetRong2.BLL\bin\Debug\SweetRong2.IBLL.pdb

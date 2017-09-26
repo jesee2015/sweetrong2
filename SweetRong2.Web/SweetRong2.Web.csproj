@@ -231,6 +231,10 @@
       <Project>{a2f7b82a-0cf7-403c-a79f-e71f1b8c0590}</Project>
       <Name>SweetRong2.Domain</Name>
     </ProjectReference>
+    <ProjectReference Include="..\SweetRong2.IBLL\SweetRong2.IBLL.csproj">
+      <Project>{62dc5468-57fb-4d3b-abe1-f50fe620ecc6}</Project>
+      <Name>SweetRong2.IBLL</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
