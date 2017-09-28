@@ -30,12 +30,12 @@ namespace SweetRong2.Repository
             throw new NotImplementedException();
         }
 
-        public IQueryable<T> LoadEntities(Func<T, bool> whereLambda)
+        public IEnumerable<T> LoadEntities(Func<T, bool> whereLambda)
         {
-            throw new NotImplementedException();
+            return _dbContext.Set<T>().Where(whereLambda);
         }
 
-        public IQueryable<T> LoadPageEntities<S>(int pageIndex, int pageSize, out int total, Func<T, bool> whereLambda, bool isAsc, Func<T, S> orderByLambda)
+        public IEnumerable<T> LoadPageEntities<S>(int pageIndex, int pageSize, out int total, Func<T, bool> whereLambda, bool isAsc, Func<T, S> orderByLambda)
         {
             throw new NotImplementedException();
         }

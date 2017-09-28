@@ -35,7 +35,7 @@ namespace SweetRong2.BLL
         }
 
         //实现对数据库的查询  --简单查询
-        public IQueryable<T> LoadEntities(Func<T, bool> whereLambda)
+        public IEnumerable<T> LoadEntities(Func<T, bool> whereLambda)
         {
             return _currentRepository.LoadEntities(whereLambda);
         }
@@ -51,7 +51,7 @@ namespace SweetRong2.BLL
         /// <param name="isAsc">如何排序，根据倒叙还是升序</param>
         /// <param name="orderByLambda">根据那个字段进行排序</param>
         /// <returns></returns>
-        public IQueryable<T> LoadPageEntities<S>(int pageIndex, int pageSize, out int total, Func<T, bool> whereLambda, bool isAsc, Func<T, S> orderByLambda)
+        public IEnumerable<T> LoadPageEntities<S>(int pageIndex, int pageSize, out int total, Func<T, bool> whereLambda, bool isAsc, Func<T, S> orderByLambda)
         {
             return _currentRepository.LoadPageEntities(pageIndex, pageSize, out total, whereLambda, isAsc, orderByLambda);
         }

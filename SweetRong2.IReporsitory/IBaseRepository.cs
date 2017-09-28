@@ -18,7 +18,7 @@ namespace SweetRong2.IReporsitory
         bool DeleteEntity(T entity);
 
         //实现对数据库的查询  --简单查询
-        IQueryable<T> LoadEntities(Func<T, bool> whereLambda);
+        IEnumerable<T> LoadEntities(Func<T, bool> whereLambda);
 
         /// <summary>
         /// 实现对数据的分页查询
@@ -31,6 +31,6 @@ namespace SweetRong2.IReporsitory
         /// <param name="isAsc">如何排序，根据倒叙还是升序</param>
         /// <param name="orderByLambda">根据那个字段进行排序</param>
         /// <returns></returns>
-        IQueryable<T> LoadPageEntities<S>(int pageIndex, int pageSize, out int total, Func<T, bool> whereLambda, bool isAsc, Func<T, S> orderByLambda);
+        IEnumerable<T> LoadPageEntities<S>(int pageIndex, int pageSize, out int total, Func<T, bool> whereLambda, bool isAsc, Func<T, S> orderByLambda);
     }
 }

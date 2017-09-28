@@ -7,3 +7,4 @@ D:\workspace\Project\SweetRong2\SweetRong2.Domain\bin\Debug\EntityFramework.dll
 D:\workspace\Project\SweetRong2\SweetRong2.Domain\bin\Debug\EntityFramework.SqlServer.dll
 D:\workspace\Project\SweetRong2\SweetRong2.Domain\bin\Debug\EntityFramework.xml
 D:\workspace\Project\SweetRong2\SweetRong2.Domain\bin\Debug\EntityFramework.SqlServer.xml
+D:\workspace\Project\SweetRong2\SweetRong2.Domain\obj\Debug\SweetRong2.Domain.csprojResolveAssemblyReference.cache

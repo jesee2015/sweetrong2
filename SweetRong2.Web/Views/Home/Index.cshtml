@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+@if (Request.IsAuthenticated)
+{
+    <span>你好</span>
+    <span>@User.Identity.Name</span>
+    <p id="LogOff">注销</p>
+}
+else
+{
+    <span>@DateTime.Now.ToString()</span>
+}
+
+
+
+<h2>Index</h2>
+
+<p>Welcome to the asp.net mvc !</p>
+
+<script type="text/javascript">
+    $(function () {
+        $("#LogOff").click(function () {
+            $.post("/account/LogOff", "", function (res) {
+
+            });
+        })
+    });
+</script>
