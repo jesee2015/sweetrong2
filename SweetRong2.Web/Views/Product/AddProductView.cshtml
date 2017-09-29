@@ -1,0 +1,52 @@
+﻿@model SweetRong2.Domain.Product
+
+@{
+    ViewBag.Title = "AddProductView";
+}
+
+<h2>AddProductView</h2>
+
+@using (Html.BeginForm("AddProduct","Product")) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Product</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.PName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.PName)
+            @Html.ValidationMessageFor(model => model.PName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.PDesc)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.PDesc)
+            @Html.ValidationMessageFor(model => model.PDesc)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.PPrice)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.PPrice)
+            @Html.ValidationMessageFor(model => model.PPrice)
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
