@@ -23,6 +23,7 @@ namespace SweetRong2.Web.Extend
         {
             //增加服务绑定
             ninjectKernel.Bind<IUserService>().To<UserService>();
+            ninjectKernel.Bind<IProductService>().To<ProductService>();
         }
         protected override IController GetControllerInstance(System.Web.Routing.RequestContext requestContext, Type controllerType)
         {

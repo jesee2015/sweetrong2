@@ -12,7 +12,7 @@ else
     <span>@DateTime.Now.ToString()</span>
 }
 
-
+<a href="/product/addproductview">add product</a>
 
 <h2>Index</h2>
 
@@ -22,7 +22,6 @@ else
     $(function () {
         $("#LogOff").click(function () {
             $.post("/account/LogOff", "", function (res) {
-
             });
         })
     });

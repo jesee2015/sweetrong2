@@ -13,5 +13,10 @@ namespace SweetRong2.Repository
         {
             get { return new UserRepository(); }
         }
+
+        public static IProductRepository ProductRepository
+        {
+            get { return new ProductRepository(); }
+        }
     }
 }

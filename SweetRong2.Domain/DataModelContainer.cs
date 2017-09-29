@@ -15,7 +15,7 @@ namespace SweetRong2.Domain
         {
 
         }
-
         public DbSet<User> Users { get; set; }
+        public DbSet<Product> Products { get; set; }
     }
 }
