@@ -13,7 +13,7 @@ namespace SweetRong2.BLL
     {
         public override void SetCurrentRepository()
         {
-            _currentRepository = RepositoryFactory.ProductRepository;
+            _currentRepository = _DbSession.ProductRepository;
         }
     }
 }

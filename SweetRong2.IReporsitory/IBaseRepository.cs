@@ -9,13 +9,13 @@ namespace SweetRong2.IReporsitory
     public interface IBaseRepository<T> where T : class
     {
         // 实现对数据库的添加功能,添加实现EF框架的引用
-        T AddEntity(T entity);
+        void AddEntity(T entity);
 
         //实现对数据库的修改功能
-        bool UpdateEntity(T entity);
+        void UpdateEntity(T entity);
 
         //实现对数据库的删除功能
-        bool DeleteEntity(T entity);
+        void DeleteEntity(T entity);
 
         //实现对数据库的查询  --简单查询
         IEnumerable<T> LoadEntities(Func<T, bool> whereLambda);

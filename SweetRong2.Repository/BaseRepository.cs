@@ -15,25 +15,21 @@ namespace SweetRong2.Repository
 
         //private DataModelContainer _dbContext = new DataModelContainer();
         private DbContext _dbContext = EFContextFactory.GetCurrentDbContext();
-        public T AddEntity(T entity)
+        public void AddEntity(T entity)
         {
             _dbContext.Set<T>().Add(entity);
-            _dbContext.SaveChanges();
-            return entity;
         }
 
-        public bool UpdateEntity(T entity)
+        public void UpdateEntity(T entity)
         {
             _dbContext.Set<T>().Attach(entity);
             _dbContext.Entry(entity).State = System.Data.Entity.EntityState.Modified;
-            return _dbContext.SaveChanges() > 0;
         }
 
-        public bool DeleteEntity(T entity)
+        public void DeleteEntity(T entity)
         {
             _dbContext.Set<T>().Attach(entity);
             _dbContext.Entry(entity).State = System.Data.Entity.EntityState.Deleted;
-            return _dbContext.SaveChanges() > 0;
 
         }
 

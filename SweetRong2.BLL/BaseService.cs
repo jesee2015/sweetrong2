@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SweetRong2.Repository;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,6 +10,7 @@ namespace SweetRong2.BLL
     public abstract class BaseService<T> where T : class
     {
         public IReporsitory.IBaseRepository<T> _currentRepository;
+        public DbSession _DbSession = new DbSession();
         public BaseService()
         {
             SetCurrentRepository();
@@ -19,19 +21,23 @@ namespace SweetRong2.BLL
         public T AddEntity(T entity)
         {
             //调用T对应的仓储来做添加工作
-            return _currentRepository.AddEntity(entity);
+            _currentRepository.AddEntity(entity);
+            _DbSession.SaveChanges();
+            return entity;
         }
 
         //实现对数据库的修改功能
         public bool UpdateEntity(T entity)
         {
-            return _currentRepository.UpdateEntity(entity);
+            _currentRepository.UpdateEntity(entity);
+            return _DbSession.SaveChanges() > 0;
         }
 
         //实现对数据库的删除功能
         public bool DeleteEntity(T entity)
         {
-            return _currentRepository.DeleteEntity(entity);
+            _currentRepository.DeleteEntity(entity);
+            return _DbSession.SaveChanges() > 0;
         }
 
         //实现对数据库的查询  --简单查询
