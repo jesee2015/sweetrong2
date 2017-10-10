@@ -1,7 +1,6 @@
 ﻿using SweetRong2.Domain;
 using SweetRong2.IBLL;
 using SweetRong2.IReporsitory;
-using SweetRong2.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;

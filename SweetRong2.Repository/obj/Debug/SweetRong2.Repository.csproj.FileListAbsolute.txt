@@ -12,3 +12,17 @@ D:\workspace\Project\SweetRong2\SweetRong2.Repository\bin\Debug\EntityFramework.
 D:\workspace\Project\SweetRong2\SweetRong2.Repository\bin\Debug\EntityFramework.SqlServer.dll
 D:\workspace\Project\SweetRong2\SweetRong2.Repository\bin\Debug\EntityFramework.xml
 D:\workspace\Project\SweetRong2\SweetRong2.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\workspace\SweetRong2Git\sweetrong2\SweetRong2.Repository\bin\Debug\SweetRong2.Repository.dll.config
+D:\workspace\SweetRong2Git\sweetrong2\SweetRong2.Repository\bin\Debug\SweetRong2.Repository.dll
+D:\workspace\SweetRong2Git\sweetrong2\SweetRong2.Repository\bin\Debug\SweetRong2.Repository.pdb
+D:\workspace\SweetRong2Git\sweetrong2\SweetRong2.Repository\bin\Debug\EntityFramework.dll
+D:\workspace\SweetRong2Git\sweetrong2\SweetRong2.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\workspace\SweetRong2Git\sweetrong2\SweetRong2.Repository\bin\Debug\SweetRong2.Domain.dll
+D:\workspace\SweetRong2Git\sweetrong2\SweetRong2.Repository\bin\Debug\SweetRong2.IReporsitory.dll
+D:\workspace\SweetRong2Git\sweetrong2\SweetRong2.Repository\bin\Debug\SweetRong2.Domain.pdb
+D:\workspace\SweetRong2Git\sweetrong2\SweetRong2.Repository\bin\Debug\SweetRong2.IReporsitory.pdb
+D:\workspace\SweetRong2Git\sweetrong2\SweetRong2.Repository\bin\Debug\EntityFramework.xml
+D:\workspace\SweetRong2Git\sweetrong2\SweetRong2.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\workspace\SweetRong2Git\sweetrong2\SweetRong2.Repository\obj\Debug\SweetRong2.Repository.csprojResolveAssemblyReference.cache
+D:\workspace\SweetRong2Git\sweetrong2\SweetRong2.Repository\obj\Debug\SweetRong2.Repository.dll
+D:\workspace\SweetRong2Git\sweetrong2\SweetRong2.Repository\obj\Debug\SweetRong2.Repository.pdb

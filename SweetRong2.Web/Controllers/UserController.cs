@@ -1,15 +1,22 @@
 ﻿using SweetRong2.BLL;
 using SweetRong2.Domain;
+using SweetRong2.IBLL;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Security;
 
 namespace SweetRong2.Web.Controllers
 {
     public class UserController : Controller
     {
+        IUserService _userService;
+        public UserController(IUserService userservice)
+        {
+            _userService = userservice;
+        }
         //
         // GET: /User/
         [HttpGet]
@@ -21,10 +28,10 @@ namespace SweetRong2.Web.Controllers
         [HttpPost]
         public void Create(User user)
         {
-            UserService _ser = new UserService();
             user.UId = Guid.NewGuid();
             user.CreateDate = DateTime.Now;
-            _ser.AddEntity(user);
+            _userService.AddEntity(user);
+            FormsAuthentication.SetAuthCookie(user.UName, true);
             RedirectToAction("index", "home");
         }
 

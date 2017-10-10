@@ -36,5 +36,12 @@ namespace SweetRong2.Web.Controllers
             _productService.AddEntity(product);
             return View();
         }
+
+        public ActionResult ProductList()
+        {
+            var products = _productService.LoadEntities((p) => 1==1);
+            //var products = _productService.LoadPageEntities<Product>(1, 10, out totle, (p) => true, true, (p) => p);
+            return View(products);
+        }
     }
 }

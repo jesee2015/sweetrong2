@@ -7,3 +7,12 @@ D:\workspace\Project\SweetRong2\SweetRong2.IBLL\bin\Debug\EntityFramework.dll
 D:\workspace\Project\SweetRong2\SweetRong2.IBLL\bin\Debug\SweetRong2.Domain.pdb
 D:\workspace\Project\SweetRong2\SweetRong2.IBLL\bin\Debug\EntityFramework.xml
 D:\workspace\Project\SweetRong2\SweetRong2.IBLL\obj\Debug\SweetRong2.IBLL.csprojResolveAssemblyReference.cache
+D:\workspace\SweetRong2Git\sweetrong2\SweetRong2.IBLL\bin\Debug\SweetRong2.IBLL.dll
+D:\workspace\SweetRong2Git\sweetrong2\SweetRong2.IBLL\bin\Debug\SweetRong2.IBLL.pdb
+D:\workspace\SweetRong2Git\sweetrong2\SweetRong2.IBLL\bin\Debug\SweetRong2.Domain.dll
+D:\workspace\SweetRong2Git\sweetrong2\SweetRong2.IBLL\bin\Debug\EntityFramework.dll
+D:\workspace\SweetRong2Git\sweetrong2\SweetRong2.IBLL\bin\Debug\SweetRong2.Domain.pdb
+D:\workspace\SweetRong2Git\sweetrong2\SweetRong2.IBLL\bin\Debug\EntityFramework.xml
+D:\workspace\SweetRong2Git\sweetrong2\SweetRong2.IBLL\obj\Debug\SweetRong2.IBLL.csprojResolveAssemblyReference.cache
+D:\workspace\SweetRong2Git\sweetrong2\SweetRong2.IBLL\obj\Debug\SweetRong2.IBLL.dll
+D:\workspace\SweetRong2Git\sweetrong2\SweetRong2.IBLL\obj\Debug\SweetRong2.IBLL.pdb

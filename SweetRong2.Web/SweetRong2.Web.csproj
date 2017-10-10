@@ -228,6 +228,7 @@
     <Content Include="Views\Account\Login.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Product\AddProductView.cshtml" />
+    <Content Include="Views\Product\ProductList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -248,6 +249,10 @@
     <ProjectReference Include="..\SweetRong2.IBLL\SweetRong2.IBLL.csproj">
       <Project>{62dc5468-57fb-4d3b-abe1-f50fe620ecc6}</Project>
       <Name>SweetRong2.IBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SweetRong2.Utility\SweetRong2.Utility.csproj">
+      <Project>{3ea84932-258d-4468-81df-25eea28910ee}</Project>
+      <Name>SweetRong2.Utility</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

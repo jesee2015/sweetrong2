@@ -1,4 +1,5 @@
-﻿using SweetRong2.Repository;
+﻿using SweetRong2.IRepository;
+using SweetRong2.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +11,8 @@ namespace SweetRong2.BLL
     public abstract class BaseService<T> where T : class
     {
         public IReporsitory.IBaseRepository<T> _currentRepository;
-        public DbSession _DbSession = new DbSession();
+        protected IDbSession _DbSession = new DbSession();
+
         public BaseService()
         {
             SetCurrentRepository();

@@ -1,4 +1,5 @@
 ﻿using SweetRong2.IReporsitory;
+using SweetRong2.IRepository;
 using System;
 using System.Collections.Generic;
 using System.Linq;

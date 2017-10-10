@@ -4,3 +4,4 @@ D:\workspace\Project\SweetRong2\SweetRong2.Utility\obj\Debug\SweetRong2.Utility.
 D:\workspace\Project\SweetRong2\SweetRong2.Utility\obj\Debug\SweetRong2.Utility.pdb
 D:\workspace\Project\SweetRong2\SweetRong2.Utility\bin\Debug\Ninject.dll
 D:\workspace\Project\SweetRong2\SweetRong2.Utility\bin\Debug\Ninject.xml
+D:\workspace\Project\SweetRong2\SweetRong2.Utility\obj\Debug\SweetRong2.Utility.csprojResolveAssemblyReference.cache

@@ -6,6 +6,7 @@
 
 <h2>SweetRong2 Sys</h2>
 
+
 @using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
@@ -31,6 +32,15 @@
             @Html.EditorFor(model => model.UPwd)
             @Html.ValidationMessageFor(model => model.UPwd)
         </div>
+
+        <div class="editor-label">
+            验证码
+        </div>
+
+        <div class="editor-field">
+            <input type="text" class="TxtPasswordCssClass" id="Code" name="Code">
+            <img src="/Account/CheckCode?ID=1" id="imgCode" alt="单击可刷新" onclick="ClickRemoveChangeCode()" />
+        </div>
         <p>
             <input type="submit" value="Login" />
         </p>
@@ -44,3 +54,9 @@
 @section Scripts {
     @Scripts.Render("~/bundles/jqueryval")
 }
+<script type="text/javascript">
+    function ClickRemoveChangeCode() {
+        var src = $("#imgCode").attr("src");
+        $("#imgCode").attr("src", src + 1);
+    }
+</script>

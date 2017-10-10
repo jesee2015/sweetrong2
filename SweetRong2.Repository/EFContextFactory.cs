@@ -19,7 +19,7 @@ namespace SweetRong2.Repository
             {
                  dbContext = new DataModelContainer(); //如果不存在上下文的话，创建一个EF上下文
                //我们在创建一个，放到数据槽中去
-                 CallContext.SetData("DbContext", dbContext);
+                 CallContext.SetData("SweetRong2Context", dbContext);
              }
              return dbContext;
         }

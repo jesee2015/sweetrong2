@@ -1,4 +1,5 @@
 ﻿using SweetRong2.IBLL;
+using SweetRong2.Utility;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -45,6 +46,25 @@ namespace SweetRong2.Web.Controllers
         {
             FormsAuthentication.SignOut();
             return RedirectToAction("index", "home");
+        }
+
+
+        /// <summary>
+        /// 验证码的实现
+        /// </summary>
+        /// <returns></returns>
+        public ActionResult CheckCode()
+        {
+            //首先实例化验证码的类
+            ValidateCode validateCode = new ValidateCode();
+            //生成验证码指定的长度
+            string code = validateCode.CreateValidateCode(5);
+            //将验证码赋值给Session变量
+            Session["ValidateCode"] = code;
+            //创建验证码的图片
+            byte[] bytes = validateCode.CreateValidateGraphic(code);
+            //最后将验证码返回
+            return File(bytes, @"image/jpeg");
         }
 
     }
