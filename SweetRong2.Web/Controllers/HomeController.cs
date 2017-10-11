@@ -13,6 +13,8 @@ namespace SweetRong2.Web.Controllers
         [AllowAnonymous]
         public ActionResult Index()
         {
+            var auth = Request.IsAuthenticated;
+            var id = HttpContext.User.Identity;
             return View();
         }
 

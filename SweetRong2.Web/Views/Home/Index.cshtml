@@ -22,6 +22,8 @@ else
     $(function () {
         $("#LogOff").click(function () {
             $.post("/account/LogOff", "", function (res) {
+                alert(res);
+                window.location.reload();
             });
         })
     });

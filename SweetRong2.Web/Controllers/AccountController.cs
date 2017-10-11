@@ -45,7 +45,7 @@ namespace SweetRong2.Web.Controllers
         public ActionResult LogOff()
         {
             FormsAuthentication.SignOut();
-            return RedirectToAction("index", "home");
+            return Json("注销成功");
         }
 
 

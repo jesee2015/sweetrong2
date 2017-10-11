@@ -7,3 +7,12 @@ D:\workspace\SweetRong2Git\sweetrong2\SweetRong2.IReporsitory\bin\Debug\EntityFr
 D:\workspace\SweetRong2Git\sweetrong2\SweetRong2.IReporsitory\obj\Debug\SweetRong2.IReporsitory.csprojResolveAssemblyReference.cache
 D:\workspace\SweetRong2Git\sweetrong2\SweetRong2.IReporsitory\obj\Debug\SweetRong2.IReporsitory.dll
 D:\workspace\SweetRong2Git\sweetrong2\SweetRong2.IReporsitory\obj\Debug\SweetRong2.IReporsitory.pdb
+D:\workspace\Project\SweetRong2\SweetRong2.IReporsitory\bin\Debug\SweetRong2.IReporsitory.dll
+D:\workspace\Project\SweetRong2\SweetRong2.IReporsitory\bin\Debug\SweetRong2.IReporsitory.pdb
+D:\workspace\Project\SweetRong2\SweetRong2.IReporsitory\bin\Debug\SweetRong2.Domain.dll
+D:\workspace\Project\SweetRong2\SweetRong2.IReporsitory\bin\Debug\EntityFramework.dll
+D:\workspace\Project\SweetRong2\SweetRong2.IReporsitory\bin\Debug\SweetRong2.Domain.pdb
+D:\workspace\Project\SweetRong2\SweetRong2.IReporsitory\bin\Debug\EntityFramework.xml
+D:\workspace\Project\SweetRong2\SweetRong2.IReporsitory\obj\Debug\SweetRong2.IReporsitory.csprojResolveAssemblyReference.cache
+D:\workspace\Project\SweetRong2\SweetRong2.IReporsitory\obj\Debug\SweetRong2.IReporsitory.dll
+D:\workspace\Project\SweetRong2\SweetRong2.IReporsitory\obj\Debug\SweetRong2.IReporsitory.pdb
